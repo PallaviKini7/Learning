@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ 
+
+}
+/* body{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+
+
+} */
+
+.App {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.user-detail
+{
+  height: auto;
+  width: 20%;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin-top: 20px;
+
+
+} 
+input,button{
+  padding: 20px;
+  font-size: 18px;
+  outline: none;
+}
