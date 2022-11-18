@@ -1,0 +1,33 @@
+img{
+    height: 80px;
+    width: 80px;
+  }
+  .cart{
+    background-color: rgba(245, 245, 245, 0.747);
+    min-height: 100vh;
+  }
+  
+
+.cart-card {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cart-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.btn
+{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    margin-top: 20px;
+}
